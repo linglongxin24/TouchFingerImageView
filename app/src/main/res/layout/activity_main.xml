@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#393939"
+    android:orientation="vertical"
+    tools:context="cn.bluemobi.dylan.touchfingerimageview.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <cn.bluemobi.dylan.touchfingerimageview.TouchFingerImageView
+            android:id="@+id/tfiv1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv1" />
+
+        <cn.bluemobi.dylan.touchfingerimageview.TouchFingerImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="2.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <cn.bluemobi.dylan.touchfingerimageview.TouchFingerImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv3" />
+
+        <cn.bluemobi.dylan.touchfingerimageview.TouchFingerImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv4" />
+
+        <cn.bluemobi.dylan.touchfingerimageview.TouchFingerImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv5" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <cn.bluemobi.dylan.touchfingerimageview.TouchFingerImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv6" />
+
+        <cn.bluemobi.dylan.touchfingerimageview.TouchFingerImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv7" />
+
+        <cn.bluemobi.dylan.touchfingerimageview.TouchFingerImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv8" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <cn.bluemobi.dylan.touchfingerimageview.TouchFingerImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv9" />
+
+        <cn.bluemobi.dylan.touchfingerimageview.TouchFingerImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv10" />
+
+        <cn.bluemobi.dylan.touchfingerimageview.TouchFingerImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1.00"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/iv11" />
+
+    </LinearLayout>
+</LinearLayout>
